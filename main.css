@@ -1,0 +1,94 @@
+.directory1_search-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("img/magnifier-tool-white.svg") no-repeat center;
+    background-size: 100% auto;
+    position: relative;
+    top: 3px;
+}
+
+.directory.directory1:hover .directory1_search-icon {
+    background: url("img/magnifier-tool-black.svg") no-repeat center;
+    background-size: 100% auto;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .reviews-container .block-reviews {
+        border-bottom: solid 1px #23b6bc;
+        padding-bottom: 10px;
+    }
+
+    .reviews-container h3 {
+        background: #e7f4f7;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-radius: 5px;
+    }
+
+    .catalogBlock a img {
+        height: 30px;
+    }
+
+    .catalogBlock a span {
+        padding-left: 20px;
+        font-size: 15px;
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    .catalogBlock div {
+        min-height: 40px;
+    }
+
+
+    .directory.directory1 .a1 {
+        font-weight: bold;
+    } {
+
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .mainText {
+        display: block;
+    }
+
+    .mainText * {
+        display: none;
+    }
+
+    .mainText h1 {
+        display: block;
+    }
+
+    .mainText .in-object-content.top-text-pp {
+        display: block;
+        height: auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .directory1_search-icon {
+        display: none;
+    }
+
+    .catalogBlock a span {
+        max-width: 140px;
+    }
+
+    .catalogBlock > div {
+        display: flex;
+        align-items: center;
+        min-height: 60px;
+    }
+}
+
+
